@@ -1,0 +1,52 @@
+/* line 6, ../sass/application.scss */
+body {
+  font-family: 'Raleway', sans-serif;
+}
+
+/* line 10, ../sass/application.scss */
+.wrapper {
+  width: 90%;
+  margin: 0 auto;
+}
+
+/* line 14, ../sass/application.scss */
+.clearfix:before
+.clearfix:after {
+  content: "";
+  display: table;
+}
+
+/* line 20, ../sass/application.scss */
+.clearfix:after {
+  clear: both;
+}
+
+/* line 24, ../sass/application.scss */
+#main_navigation {
+  padding: 2.5em 5%;
+  border-bottom: 1px solid #e9e9e9;
+}
+/* line 27, ../sass/application.scss */
+#main_navigation .name {
+  font-weight: 700;
+  font-size: .8em;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  border: 2px solid #e9e9e9;
+  padding: 0.7rem;
+  text-decoration: none;
+  color: #424652;
+  float: left;
+}
+/* line 39, ../sass/application.scss */
+#main_navigation nav {
+  float: right;
+  padding-top: 1.5rem;
+}
+/* line 42, ../sass/application.scss */
+#main_navigation nav a {
+  color: #424652;
+  text-decoration: none;
+  margin: 0 1rem;
+  font-size: 1rem;
+}
